@@ -125,6 +125,7 @@ public final class PasswordGenerator {
         Random random = new Random(System.nanoTime());
 
         // Collect the categories to use.
+        
         List<String> charCategories = new ArrayList<>(4);
         if (useLower) 
             charCategories.add(LOWER);
@@ -140,7 +141,7 @@ public final class PasswordGenerator {
         
 
         // Build the password.
-        
+
         for (int i = 0; i < length; i++) {
             String charCategory = charCategories.get(random.nextInt(charCategories.size()));
 
