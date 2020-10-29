@@ -9,6 +9,6 @@ public class Main {
 
         String password = passwordGenerator.generate(5);
 
-        System.out.println("\n\n" + password + "\n" + "\n");
+        System.out.println("\n\n" + password + "\n\n");
     }    
 }
